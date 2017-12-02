@@ -1,1 +1,0 @@
-# senthilkumarpari.github.io
