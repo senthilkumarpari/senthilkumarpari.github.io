@@ -30,26 +30,89 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <style>
+.button {
+  display: inline-block;
+ border-radius: 8px;
+ background-color: #A9A9A9;
+ border: none;
+ color: #FFFFFF;
+ text-align: center;
+ font-size: 15px;
+ padding: 10px;
+ width: 150px;
+ transition: all 0.5s;
+ cursor: pointer;
+ margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+
+
 </head>
 
 <body>
     <!-- ******HEADER****** -->
     <header class="header">
         <div class="container">
+          <button class="button" style="vertical-align:middle"><span>Home</span></button>
+              <button class="button" style="vertical-align:middle"><span>Education</span></button>
+                  <button class="button" style="vertical-align:middle"><span>Skills</span></button>
+                      <button class="button" style="vertical-align:middle"><span>Publicaions</span></button>
+                          <button class="button" style="vertical-align:middle"><span>Research</span></button>
+                              <button class="button" style="vertical-align:middle"><span>Resources</span></button>
             <img class="profile-image img-responsive pull-left" src="assets/images/profile1.png" alt="Senthil Kumar" />
             <div class="profile-content pull-left">
-                <h1 class="name">Senthil Kumar Parimalanathan Ph.D</h1>
+                    <h1 class="name">Senthil Kumar Parimalanathan Ph.D</h1>
                 <h2 class="desc">Researcher</h2>
                 <ul class="social list-inline">
-                    <li><a href="https://www.researchgate.net/profile/Senthil_Kumar_P"><i class="ai ai-researchgate ai-1x"></i></a></li>
-                    <li><a href="https://orcid.org/0000-0001-7537-0020"><i class="ai ai-orcid ai-1x"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/senthil-kumar-p-37143228"><i class="fa fa-linkedin ai-1x"></i></a></li>
-                    <li class="last-item"><a href="https://scholar.google.co.in/citations?user=UT9R6QEAAAAJ&hl=en"><i class="ai ai-google-scholar 1i-3x"></i></a></li>
+                    <li><a href="https://www.researchgate.net/profile/Senthil_Kumar_P"><i class="ai ai-researchgate ai-2x"></i></a></li>
+                    <li><a href="https://orcid.org/0000-0001-7537-0020"><i class="ai ai-orcid ai-2x"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/senthil-kumar-p-37143228"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                    <li class="last-item"><a href="https://scholar.google.co.in/citations?user=UT9R6QEAAAAJ&hl=en"><i class="ai ai-google-scholar ai-2x"></i></a></li>
                 </ul>
             </div><!--//profile-->
-            <a class="btn btn-cta-primary pull-right" href="http://themes.3rdwavemedia.com/" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>
+            <a class="btn btn-cta-primary pull-right" href="#" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>
         </div><!--//container-->
-    </header><!--//header-->
+            </header><!--//header-->
+
+
+
+    <div class="w3-container">
+      <div class="w3-panel w3-leftbar w3-light-grey">
+    <p class="w3-xlarge w3-serif"><i>"We are not to tell nature what she’s gotta be. … She's always got better imagination than we have"</i></p>
+    <p>Richard Phillips Feynman</p>
+  </div>
+</div>
+
+
 
     <div class="container sections-wrapper">
         <div class="row">
@@ -67,7 +130,9 @@ acquire knowledge and familiarize the tools required to face the turbulent demon
                     </div><!--//section-inner-->
                 </section><!--//section-->
 
-               <section class="latest section">
+                !started commending
+
+          <!     <section class="latest section">
                     <div class="section-inner">
                         <h2 class="heading">Latest Projects</h2>
                         <div class="content">
@@ -85,9 +150,9 @@ acquire knowledge and familiarize the tools required to face the turbulent demon
                                     </div>
 
                                 <div class="desc text-left">
-                                    <p>You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
-                                    <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
-                                </div><!--//desc-->
+
+                                  <p> </P>
+                                    </div><!--//desc-->
                                 <a class="btn btn-cta-secondary" href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank"><i class="fa fa-thumbs-o-up"></i> Back my project</a>
                             </div><!--//item-->
                             <hr class="divider" />
@@ -193,10 +258,9 @@ acquire knowledge and familiarize the tools required to face the turbulent demon
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>San Francisco, US</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">jameslee@website.com</a></li>
-                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://www.website.com</a></li>
-                            </ul>
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Chennai, India</li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">senthilkumarphoton@gmail.com</a></li>
+                                                          </ul>
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//aside-->
@@ -382,6 +446,6 @@ acquire knowledge and familiarize the tools required to face the turbulent demon
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
     <script type="text/javascript" src="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.js"></script>
     <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script> >
 </body>
 </html>
