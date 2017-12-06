@@ -25,6 +25,21 @@ h6 {
   font-weight: 700;
   color: #778492;
 }
+h7
+{font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+color: #FFFFFF;
+text-align: justify;
+
+}
+
+h8
+{font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+color: #63EEE7 ;
+text-align: justify;
+}
+
 a {
   color: #3aaa64;
   -webkit-transition: all 0.4s ease-in-out;
@@ -317,6 +332,28 @@ iframe {
 .experience .item .title .year {
   color: #63EEE7;
   font-weight: normal;
+}
+
+ol.f {
+  list-style-type: decimal;
+    text-align: justify;
+
+}
+
+.citation .item .title {
+    color: #FFFFFF;
+  margin-bottom: .333em;
+  text-align: justify;
+
+
+  }
+
+
+
+
+
+
+
 }
 /* Git section */
 .ghfeed {
